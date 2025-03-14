@@ -2,11 +2,17 @@
 
 This is a **Restaurant Application** for **billing ordered items** efficiently.  
 
+## Usage
+   The owner can add the food items at url
+   `localhost:5173/owner` with credentials `admin` and `123456`
+
+
 ## Features 🚀  
 - Add items to the order  
 - Calculate the total bill  
 - Generate and print receipts  
-- User-friendly interface  
+- User-friendly interface
+- The application is developed using `vite`, `express.js` and `mongoDB` as database.
 
 ## Installation 🔧  
 1. Clone the repository:  
