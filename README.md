@@ -29,12 +29,12 @@ node server.js
 ```
 
 4. Start the vite application
-   ```
+```
   cd  ..
   
   cd src
   
   npm run dev
-   ```
+```
 
 If installing dependencies gives errors install them manually reffering to package.json from frontend and backend folder
