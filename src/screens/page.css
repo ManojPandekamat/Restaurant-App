@@ -1,0 +1,29 @@
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#bill-btn{
+    
+    text-decoration: none;
+    width: 8rem;
+    padding: 1rem;
+    background-color: #ef4f5f;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+#bill{
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    margin-top: 1rem;
+    
+}

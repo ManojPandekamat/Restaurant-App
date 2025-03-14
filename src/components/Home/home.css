@@ -1,0 +1,85 @@
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+    border-bottom: 1px solid rgb(35, 35, 35);
+    padding-bottom: 1rem;
+    
+}
+
+.menu-item{
+  justify-self: center;
+  align-self: center;
+  width: 10rem;
+  height: 10rem;
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 0.2rem;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  display: grid;
+  grid-template-rows: 1;
+  grid-template-columns: 1;
+  text-decoration: none;
+
+}
+
+.menu-item:hover{
+    transform: scale(1.01);
+
+    
+
+}
+
+img{
+    width: 10rem;
+    height: 10rem;
+    filter: grayscale(0.25);
+}
+
+.head-menu{
+    height: 3rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid rgb(35, 35, 35);
+    border-top: 1px solid rgb(35, 35, 35);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.menu-item > *{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.menu-item > section{
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-shadow:  0px 0px 15px rgb(52, 52, 52);
+}
+
+.bottom{
+    height: 5rem;
+    background-color: #ef4f5f;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid rgb(35, 35, 35);
+    border-top: 1px solid rgb(35, 35, 35);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-left: 2rem;
+}
+
