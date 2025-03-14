@@ -10,7 +10,7 @@ This is a **Restaurant Application** for **billing ordered items** efficiently.
 
 ## Installation 🔧  
 1. Clone the repository:  
-   ```
+```
    git clone https://github.com/ManojPandekamat/Restaurant-app.git
    cd Restaurant-app
 ```
@@ -31,9 +31,7 @@ node server.js
 4. Start the vite application
 ```
   cd  ..
-  
   cd src
-  
   npm run dev
 ```
 
